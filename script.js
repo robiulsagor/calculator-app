@@ -16,7 +16,7 @@ for(var i=0; i<btns.length; i++){
             operator.innerText = "";
         }
 
-        if(btnVal == '1' || btnVal == '2' || btnVal == '3' || btnVal == '4' || btnVal == '5' || btnVal == '6' || btnVal == '7' || btnVal == '8' || btnVal == '9' || btnVal == '0'){
+        if(btnVal == '1' || btnVal == '2' || btnVal == '3' || btnVal == '4' || btnVal == '5' || btnVal == '6' || btnVal == '7' || btnVal == '8' || btnVal == '9' || btnVal == '0' || btnVal =="."){
             if(operator.innerText == ''){
                 operand1.innerText += btnVal;
                 console.log("operand 1");
